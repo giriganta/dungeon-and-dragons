@@ -1,0 +1,61 @@
+{
+  "name": "dungeons_dragons",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "debug": "NODE_OPTIONS='--inspect' next dev",
+    "dev-no-turbo": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/cache": "^11.11.0",
+    "@emotion/react": "^11.11.3",
+    "@emotion/styled": "^11.11.0",
+    "@fortawesome/fontawesome-svg-core": "^6.5.1",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/icons-material": "^5.15.8",
+    "@mui/lab": "^5.0.0-alpha.165",
+    "@mui/material": "^5.15.7",
+    "@mui/material-nextjs": "^5.15.7",
+    "@typescript-eslint/eslint-plugin": "^6.21.0",
+    "@typescript-eslint/parser": "^6.21.0",
+    "ai": "^3.0.12",
+    "axios": "^1.6.7",
+    "eslint-plugin-unused-imports": "^3.0.0",
+    "firebase": "^10.8.0",
+    "next": "14.1.0",
+    "notistack": "^3.0.1",
+    "nuqs": "^1.16.1",
+    "openai": "^4.28.4",
+    "pdf-lib": "^1.17.1",
+    "prettier": "^3.2.5",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-markdown": "^9.0.1",
+    "request": "^2.88.2",
+    "sharp": "^0.33.2",
+    "swr": "^2.2.4",
+    "use-debounce": "^10.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "eslint": "^8.56.0",
+    "eslint-config-next": "14.1.0",
+    "typescript": "^5"
+  },
+  "browser": {
+    "fs": false,
+    "os": false,
+    "path": false,
+    "child_process": false,
+    "net": false,
+    "tls": false
+  }
+}
